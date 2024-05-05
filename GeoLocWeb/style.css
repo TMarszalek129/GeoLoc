@@ -1,0 +1,31 @@
+
+ #map {
+    height: 100%;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  #floating-panel {
+    position: absolute;
+    top: 10px;
+    left: 380px;
+    margin-left: -180px;
+    height: 30px;
+    width: 200px;
+    z-index: 5;
+    background-color: #fff;
+    padding: 5px;
+    border: 1px solid #999;
+  }
+  
+  
+  #latlng {
+    width: 225px;
+  }
+  
